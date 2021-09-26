@@ -67,7 +67,7 @@ h1{
 #learnMore{
     width:100px;
     height: 40px;
-    background-color: #AC62C2;
+    background-color: #9F60E2;
     color: white;
     border: none;
     border-radius: 45px;
@@ -97,6 +97,7 @@ h1{
     margin: 0 auto;
     background-color:#F8CFDC;
     border-radius: 30px;
+    width: 95%;
 }
 
 #shot2{
@@ -119,12 +120,12 @@ h2{
 }
 
 #testimonials{
-    background-color: #9655aa;
+    background-color: #9F60E2;
     border-radius: 15px;
     color: white;
     text-align: center;
     margin: 0 auto;
-    width: 80%;
+    /* width: 70%; */
 }
 
 #testimonials h3{
@@ -145,7 +146,7 @@ h2{
 } */
 
 .jdoeCard a{
-    color: #AC62C2;
+    color: #9F60E2;
 }
 
 .jdoeCard h4{
@@ -165,8 +166,9 @@ h2{
 }
 
 #footer{
-    border-top: 2px solid #AC62C2;
+    border-top: 2px solid #9F60E2;
     margin-top: 30px;
+    padding: 15px;
 }
 
 #footerTop{
@@ -184,6 +186,7 @@ h2{
     transition: all 0.3s ease 0s;
     cursor:progress;
     float: right;
+    margin-top: -30px;
 }
 
 #requestDemo{
@@ -196,6 +199,7 @@ h2{
     transition: all 0.3s ease 0s;
     cursor:progress;
     float:right;
+    margin-top: -30px;
 }
 
 #footerBottom{
@@ -204,8 +208,15 @@ h2{
     flex-direction: row;
     margin-top: 70px;
     justify-content: space-between;
-    padding: 30px;
 }
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+
 
 #footerBottom ul{
     list-style-type: none;
