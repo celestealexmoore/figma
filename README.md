@@ -3,7 +3,7 @@
 
 # Figma Data Warehouse
 
-### _A recreated website that is CSS engineered._
+### _A recreated website that is CSS engineered. I built my version completely from scratch using Canva and CSS._
 </div>
 
 ## Table of Contents
