@@ -119,6 +119,12 @@ h2{
     margin-top: 30px;
 }
 
+#featuresTag{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .learnMore2{
     border: none;
     background-color: transparent;
@@ -127,6 +133,14 @@ h2{
 .featuresTag img{
     height: 300px;
     width: auto;
+
+}
+
+.featuresTagText{
+    position: absolute;
+    width:200px;
+    height:auto;
+    margin: -255px 0 0 250px;
 }
 
 #testimonials{
