@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    color: rgb(87, 87, 87);
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
+}
+
+#navBar {
+    /* display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap; */
+    padding: 20px;
+    
+}
+
+#navBar ul li{
+    display:inline-block;
+    list-style-type: none;
+    margin: 5px;
+}
+
+#navBar ul li a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+#navBar ul li a:hover{
+    color: black;
+}
+
+#bars{
+    float: left;
+    width:40px;
+    height:auto;
+    margin: 0 50px 0 50px;
+}
+
+#demo{
+    width:120px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor:progress;
+    float: right;
+    margin-top: -30px;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+#learnMore{
+    width:100px;
+    height: 40px;
+    background-color: #AC62C2;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px #3b1b44;
+    transition: all 0.3s ease 0s;
+    cursor:progress;
+    float: left;
+    margin-top: 20px;
+}
+
+#dataStorage{
+    display:inline;
+    margin: 0 auto;
+    /* margin: 0 100px 0 200px; */
+}
+
+#shot1{
+    height: 350px;
+    width:auto;
+    float:right;
+    margin:0;
+}
+
+#storageBank{
+    display:inline;
+    padding: 20px;
+    margin: 0 auto;
+    background-color:#F8CFDC;
+    border-radius: 30px;
+}
+
+#shot2{
+    height: 275px;
+    width:auto;
+    float:left;
+    margin:0;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin: 30px 0 15px 0;
+}
+
+#features{
+    text-align:center;
+    margin-top: 30px;
+}
+
+#testimonials{
+    background-color: #AC62C2;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#testimonials h3{
+    margin: 30px 500px 20px 10px;
+}
+
+.jdoeCard{
+    border-radius: 15px;
+    background-color: white;
+    padding: 30px;
+    width:60%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/* #jdoeCardText{
+    float:right;
+} */
+
+.jdoeCard a{
+    color: #AC62C2;
+}
+
+.jdoeCard h4{
+    color: black;
+    margin-bottom: 5px;
+}
+
+.jdoeCard p{
+    color: rgb(87, 87, 87);
+}
+
+.jdoe{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+}
+
+#footer{
+    border-top: 2px solid #AC62C2;
+}
