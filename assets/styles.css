@@ -2,8 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
 }
+/* * is universal (selects all elements), while body is an element selector. */
 
 body {
     color: rgb(87, 87, 87);
