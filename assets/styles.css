@@ -88,15 +88,22 @@ h1{
     flex-flow: row-reverse wrap;
     width: 100%;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-bottom: 50px;
 }
 
 #dataStorageText{
     width: 300px;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    /* width: 50%; */
 }
 
 #shot1 {
-    width: 300px;
+    /* width: 300px; */
+    width: 80%;
     /* min-width:350px;
     max-width: 600px; */
 }
