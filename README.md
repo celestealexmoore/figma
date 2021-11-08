@@ -8,8 +8,6 @@
 
 ## Table of Contents
 
-- [Description](#Description)
-
 - [Media](#Media)
 
 - [Deployed Site](#deployed-site)

@@ -10,13 +10,16 @@ body {
     display:flex;
     flex-flow: column nowrap;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 30px;
+    padding: 10px;
+    margin: 0 auto;
     justify-content: center;
+    align-items: center;
 }
 
 #navBar{
     display: flex;
     flex-flow: row wrap;
+    width: 100%;
     margin-bottom: 30px;
     align-items: center;
     justify-content: space-between;
@@ -83,32 +86,42 @@ h1{
 #dataStorage{
     display: flex;
     flex-flow: row-reverse wrap;
+    width: 100%;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-#dataStorageText, #storageBankText {
-    max-width: 400px;
-    height: auto;
+#dataStorageText{
+    width: 300px;
 }
 
 #shot1 {
-    min-width:350px;
-    max-width: 600px;
+    width: 300px;
+    /* min-width:350px;
+    max-width: 600px; */
 }
 
 #storageBank{
+    width: 70%;
     display:flex;
     flex-flow:row wrap;
-    padding: 20px;
     justify-content: center;
+    align-items: center;
+    padding: 15px;
     background-color:#F8CFDC;
     border-radius: 30px;
 }
 
 #shot2{
-    height: 275px;
-    width:auto;
+    width:300px;
+    border-radius: 30px;
+    background-color:#F8CFDC;
+    border-radius: 30px;
+}
+
+#storageBankText {
+    width: 300px;
+    background-color:#F8CFDC;
     border-radius: 30px;
 }
 
@@ -126,8 +139,7 @@ h2{
 
 #featuresTag{
     display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 
@@ -140,6 +152,8 @@ h2{
 }
 
 .featuresTag img{
+    /* width: 50%; */
+    /* height: auto; */
     height: 300px;
     width: auto;
 
@@ -147,6 +161,7 @@ h2{
 
 .featuresTagText {
     position: absolute;
+    /* width: 38%; */
     width:190px;
     line-height:1.2;
     height:auto;
@@ -165,7 +180,7 @@ h2{
     color: white;
     text-align: center;
     margin: 0 auto;
-    /* width: 70%; */
+    max-width: 100%;
 }
 
 #testimonials h3{
@@ -180,10 +195,6 @@ h2{
     margin: 0 auto;
     margin-bottom: 10px;
 }
-
-/* #jdoeCardText{
-    float:right;
-} */
 
 .jdoeCard a{
     color: #9F60E2;
@@ -211,6 +222,7 @@ h2{
     border-top: 2px solid #9F60E2;
     margin-top: 30px;
     padding: 15px;
+    width: 100%;
 }
 
 #footerTop{
@@ -252,7 +264,8 @@ h2{
     display:flex;
     flex-flow: row wrap;
     margin-top: 50px;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 #logo{
@@ -322,12 +335,136 @@ h2{
 }
 
 @media screen and (max-width: 576px) {
+    #dataStorage{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        margin: 0 auto;
+        
+    }
+    #shot-1{
+        width:100%;
+        height: auto;
+    }
+    #dataStorageText{
+        display:flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    #dataStorageText, #storageBankText {
+        width: 80%;
+        height: auto;
+        text-align: center;
+    }
+    #storageBank{
+        width: 100%;
+        display:flex;
+        flex-flow:row wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        background-color:#F8CFDC;
+    }
+
+    #navBar{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #navBar ul {
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 10px;
+    }
+    #requestDemo{
+        display:flex;
+        flex-flow: column nowrap;
+        align-self: center;
+        justify-content: center;
+        margin: 20px;
+    }
+    #storageBank{
+        margin-top: 30px;
+    }
+    .featuresTag img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .featuresTagText {
+        position: absolute;
+        width: 38%;
+        line-height:1.2;
+        height:auto;
+        margin: -255px 0 0 250px;
+    }
+
+    #testimonials{
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: #9F60E2;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+        /* margin: 0 auto; */
+        max-width: 100%;
+    }
+    
+    #testimonials h3{
+        margin: 20px auto;
+    }
+    .jdoeCard{
+        width: 80%
+    }
+
+    #footer{
+        text-align: center;
+    }
     .footerLi, .footerLi2, #socialMedia {
         border-top: 1px solid gray;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    #learnMore3{
+        margin: 10px;
+    }
+    .hide{
+        display:none;
     }
 
     #socialMedia{
         margin-top: 30px;
         padding:10px
+    }
+
+    #footerTop{
+        margin-bottom: 40px;
+        display:flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    #footerBottom{
+        display:flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .icons{
+        width: 10%;
+        height: auto;
+    }
+    .icons:hover{
+        width: 12%;
+        height: auto;
     }
 }
